@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Dragon Wok | Indo-Chinese Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Dragon Wok</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About Us</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="index.html#reserve">Reserve</a></li>
+                <li><a href="index.html#reviews">Reviews</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Menu Section -->
+    <section class="menu-page">
+        <div class="container">
+            <h1 class="page-title">Our Menu</h1>
+            
+            <!-- Menu Categories -->
+            <div class="menu-categories">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="starters">Starters</button>
+                <button class="category-btn" data-category="mains">Mains</button>
+                <button class="category-btn" data-category="rice-noodles">Rice & Noodles</button>
+                <button class="category-btn" data-category="beverages">Beverages</button>
+            </div>
+
+            <!-- Starters -->
+            <div class="menu-section" id="starters">
+                <h2 class="menu-section-title">Starters</h2>
+                <div class="menu-grid">
+                    <div class="menu-item" data-category="starters">
+                        <div class="menu-item-img">
+                            <img src="images/spring-rolls.jpg" alt="Vegetable Spring Rolls">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Vegetable Spring Rolls</h3>
+                            <p>Crispy rolls filled with cabbage, carrots, and glass noodles, served with sweet chili sauce.</p>
+                            <span class="price">Rs. 250</span>
+                            <div class="tags">
+                                <span class="tag vegetarian">Vegetarian</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="starters">
+                        <div class="menu-item-img">
+                            <img src="images/chili-paneer.jpg" alt="Chili Paneer">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Chili Paneer</h3>
+                            <p>Crispy paneer cubes tossed in a spicy Indo-Chinese sauce with bell peppers and onions.</p>
+                            <span class="price">Rs. 300</span>
+                            <div class="tags">
+                                <span class="tag vegetarian">Vegetarian</span>
+                                <span class="tag spicy">Spicy</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="starters">
+                        <div class="menu-item-img">
+                            <img src="images/chicken-lollipop.jpg" alt="Chicken Lollipop">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Chicken Lollipop</h3>
+                            <p>Spicy chicken winglets marinated in Indo-Chinese spices and deep-fried to perfection.</p>
+                            <span class="price">Rs. 400</span>
+                            <div class="tags">
+                                <span class="tag spicy">Spicy</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="starters">
+                        <div class="menu-item-img">
+                            <img src="images/szechuan-prawns.jpg" alt="Szechuan Prawns">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Szechuan Prawns</h3>
+                            <p>Succulent prawns stir-fried with Szechuan peppers, garlic, and spring onions.</p>
+                            <span class="price">Rs. 450</span>
+                            <div class="tags">
+                                <span class="tag spicy">Spicy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mains -->
+            <div class="menu-section" id="mains">
+                <h2 class="menu-section-title">Mains</h2>
+                <div class="menu-grid">
+                    <div class="menu-item" data-category="mains">
+                        <div class="menu-item-img">
+                            <img src="images/manchurian-curry.jpg" alt="Manchurian Curry">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Manchurian Curry</h3>
+                            <p>Choice of vegetable or chicken dumplings in a thick, spicy gravy with Indo-Chinese spices.</p>
+                            <span class="price">Rs. 400</span>
+                            <div class="tags">
+                                <span class="tag spicy">Spicy</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="mains">
+                        <div class="menu-item-img">
+                            <img src="images/kung-pao-chicken.jpg" alt="Kung Pao Chicken">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Kung Pao Chicken</h3>
+                            <p>Diced chicken stir-fried with peanuts, vegetables, and chili peppers in our special sauce.</p>
+                            <span class="price">Rs. 475</span>
+                            <div class="tags">
+                                <span class="tag spicy">Spicy</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="mains">
+                        <div class="menu-item-img">
+                            <img src="images/chili-garlic-tofu.jpg" alt="Chili Garlic Tofu">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Chili Garlic Tofu</h3>
+                            <p>Crispy tofu tossed in a spicy chili garlic sauce with bell peppers and onions.</p>
+                            <span class="price">Rs. 500</span>
+                            <div class="tags">
+                                <span class="tag vegetarian">Vegetarian</span>
+                                <span class="tag spicy">Spicy</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="mains">
+                        <div class="menu-item-img">
+                            <img src="images/honey-chili-potatoes.jpg" alt="Honey Chili Potatoes">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Honey Chili Potatoes</h3>
+                            <p>Crispy potato fingers tossed in a sweet and spicy honey chili sauce.</p>
+                            <span class="price">Rs. 250</span>
+                            <div class="tags">
+                                <span class="tag vegetarian">Vegetarian</span>
+                                <span class="tag spicy">Spicy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Rice & Noodles -->
+            <div class="menu-section" id="rice-noodles">
+                <h2 class="menu-section-title">Rice & Noodles</h2>
+                <div class="menu-grid">
+                    <div class="menu-item" data-category="rice-noodles">
+                        <div class="menu-item-img">
+                            <img src="images/veg-fried-rice.jpg" alt="Vegetable Fried Rice">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Vegetable Fried Rice</h3>
+                            <p>Fragrant rice stir-fried with mixed vegetables and Indo-Chinese spices.</p>
+                            <span class="price">Rs. 275</span>
+                            <div class="tags">
+                                <span class="tag vegetarian">Vegetarian</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="rice-noodles">
+                        <div class="menu-item-img">
+                            <img src="images/hakka-noodles.jpg" alt="Chicken Hakka Noodles">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Chicken Hakka Noodles</h3>
+                            <p>Stir-fried noodles with chicken, vegetables, and our special Hakka sauce.</p>
+                            <span class="price">Rs. 350</span>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="rice-noodles">
+                        <div class="menu-item-img">
+                            <img src="images/szechuan-rice.jpg" alt="Szechuan Fried Rice">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Szechuan Fried Rice</h3>
+                            <p>Spicy fried rice with your choice of protein, vegetables, and Szechuan peppers.</p>
+                            <span class="price">Rs. 300</span>
+                            <div class="tags">
+                                <span class="tag spicy">Spicy</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="rice-noodles">
+                        <div class="menu-item-img">
+                            <img src="images/singapore-noodles.jpg" alt="Singapore Noodles">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Singapore Noodles</h3>
+                            <p>Thin rice noodles stir-fried with curry powder, vegetables, and your choice of protein.</p>
+                            <span class="price">Rs. 350</span>
+                            <div class="tags">
+                                <span class="tag spicy">Spicy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Beverages -->
+            <div class="menu-section" id="beverages">
+                <h2 class="menu-section-title">Beverages</h2>
+                <div class="menu-grid">
+                    <div class="menu-item" data-category="beverages">
+                        <div class="menu-item-img">
+                            <img src="images/mango-lassi.jpg" alt="Mango Lassi">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Mango Lassi</h3>
+                            <p>Refreshing yogurt drink blended with ripe mangoes and a hint of cardamom.</p>
+                            <span class="price">RS. 150</span>
+                            <div class="tags">
+                                <span class="tag vegetarian">Vegetarian</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="beverages">
+                        <div class="menu-item-img">
+                            <img src="images/masala-chai.jpg" alt="Masala Chai">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Masala Chai</h3>
+                            <p>Traditional Indian spiced tea with milk, cardamom, cinnamon, and ginger.</p>
+                            <span class="price">Rs. 89</span>
+                            <div class="tags">
+                                <span class="tag vegetarian">Vegetarian</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="beverages">
+                        <div class="menu-item-img">
+                            <img src="images/lychee-tea.jpg" alt="Lychee Iced Tea">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Lychee Iced Tea</h3>
+                            <p>Refreshing iced tea infused with lychee flavor and fresh mint leaves.</p>
+                            <span class="price">Rs. 120</span>
+                            <div class="tags">
+                                <span class="tag vegetarian">Vegetarian</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item" data-category="beverages">
+                        <div class="menu-item-img">
+                            <img src="images/dragon-fruit-smoothie.jpg" alt="Dragon Fruit Smoothie">
+                        </div>
+                        <div class="menu-item-content">
+                            <h3>Dragon Fruit Smoothie</h3>
+                            <p>Vibrant smoothie made with dragon fruit, yogurt, and a touch of honey.</p>
+                            <span class="price">Rs. 150</span>
+                            <div class="tags">
+                                <span class="tag vegetarian">Vegetarian</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="back-to-home">
+                <a href="index.html" class="btn">Back to Home</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Dragon Wok</h2>
+                    <p>Indo-Chinese Restaurant</p>
+                </div>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dragon Wok. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
